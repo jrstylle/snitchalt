@@ -1,0 +1,5 @@
+body[data-snitchalt="enable"] img[alt=""],
+body[data-snitchalt="enable"] img:not([alt]){
+    border: 5px solid red;
+    box-shadow: 0px 0px 44px #ff1100;
+}

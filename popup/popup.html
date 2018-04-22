@@ -1,0 +1,126 @@
+<style type="text/css">
+body{
+    background: #d91f1f;   
+}
+.popup{
+	width: 300px;
+    height: 150px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.popup__title{
+    font-size: 2em;
+    font-weight: bolder;
+    text-align: center;
+    color: #ffffff;
+}
+.popup__logo{
+    display: block;
+    margin: 0 auto;
+}
+.popup__description{
+    text-align: center;
+    color: #ffffff;
+}
+.popup__button{
+        width: 95%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 0.2em;
+        padding: 0.5em;
+        font-size: 1.8em;
+        text-align: center;
+        line-height: 1em;
+        color: white;
+        background: #ea2626;
+        border: none;
+        outline: none;
+        transition: 0.1s ease-out;
+
+}
+.popup__button--active{
+    background: #4CAF50!important;
+    box-shadow: 0px 0px 20px #4CAF50!important;
+    transition: 0.1s ease-out;
+}
+.popup__switch {
+    width: 150px;
+    height: 34px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  
+.popup__switch input {
+    display:none;
+}
+  
+.switch__slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    background-color: #861616;
+    box-shadow: inset 14px 23px 43px #581a1a;
+    -webkit-transition: .4s;
+    transition: .4s;
+    
+  }
+  
+  .switch__slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .switch__slider {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px #ffffff;;
+  }
+  
+  input:focus + .switch__slider {
+    box-shadow: 0 0 1px #ffffff;
+    box-shadow: 0px 0px 20px #ffffff;
+
+  }
+  
+  input:checked + .switch__slider:before {
+    -webkit-transform: translateX(115px);
+    -ms-transform: translateX(115px);
+    transform: translateX(115px);
+    background: #d91f1f;
+  }
+  
+  /* Rounded sliders */
+  .switch__slider.switch__slider--round {
+    border-radius: 34px;
+  }
+  
+  .switch__slider.switch__slider--round:before {
+    border-radius: 50%;
+  }
+</style>
+
+<div class="popup">
+<h1 class="popup__title">Snitchalt</h1>
+<img class="popup__logo" src="../icons/icon128.png" alt="snitch logo">
+<p class="popup__description">
+	Snitchalt is an extension of Google Chrome that finds images without alt
+</p>
+<label class="popup__switch">
+    <input id="switchButton" type="checkbox">
+    <span class="switch__slider switch__slider--round"></span>
+</label>
+
+</div>
+<script src="popup.js"></script>
