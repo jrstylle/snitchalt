@@ -33,7 +33,6 @@
         });
     }
     snitchAlt.init = function(){
-        console.log('teste');
 
         var popup = document.querySelector('.popup');
         var switchButton = document.getElementById('switchButton');
@@ -46,7 +45,6 @@
             if(extensionState === 'Enabled'){
                 snitchAlt.changeButtonAppearance(extensionState);
                 snitchAlt.injetScriptPage(fileAddAttribute);
-                console.log('extension enabled');
 
             }else{
                 snitchAlt.changeButtonAppearance(extensionState);

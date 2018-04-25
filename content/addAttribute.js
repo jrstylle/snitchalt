@@ -1,2 +1,2 @@
 var pageBody = document.querySelector('body'); 
-pageBody.setAttribute('data-snitchalt', "enable");
+pageBody.setAttribute('data-snitchalt', "enabled");
