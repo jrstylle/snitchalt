@@ -1,7 +1,7 @@
 {
     "name": "Snitchalt",
     "description": "The Snitchalt is an extension of Google Chrome that finds images without alt and empty alt images",
-    "version": "1.0.0",
+    "version": "1.2.0",
     "author": "José Rodrigues",
     "homepage_url": "https://www.linkedin.com/in/jrstylle/",
     "manifest_version": 2,
