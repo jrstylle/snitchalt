@@ -1,6 +1,5 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/jrstylle/Snitchalt/master/icons/icon128.png" alt="Snitchalt" width="128" />
-</p>
+<img width="1439" alt="Screenshot 2020-05-12 at 15 56 36" src="https://user-images.githubusercontent.com/6127099/81734801-78a8e400-946a-11ea-9d3c-8e16e2fc0540.png">
+
 <hr>
 
 <h1>Snitchalt</h1>
